@@ -1,0 +1,55 @@
+/*image*/
+
+.bespoke-background {
+	background-image: url("../../images/bespoke.jpg");
+	background-size: cover;
+	background-position: center;
+	height: 300px;
+	border-radius: 5%;
+	margin-top: 62px;
+}
+
+
+
+
+/*DESCRIPTION*/
+
+.bespoke-desc {
+	display: block;
+	text-align: center;
+	padding: 60px;
+	margin-bottom: 50px;
+	margin: 0 auto;
+	align-content: center;
+}
+
+
+.bespoke-desc H2 {
+	font-family: 'DELIRIUM NCV', sans-serif;
+	text-align: center;
+	font-size: 56px;
+	letter-spacing: 5px;
+	color: #06283D;
+	width: 300px;
+	margin: 0 auto;
+	margin-bottom: 10px;
+}
+
+
+.bespoke-desc a {
+	font-family: 'high spirited', sans-serif;
+	text-decoration: none;
+	font-size: 32px;
+	color: #7F8487;
+	text-align: center;
+	margin-top: 24px;
+	margin-bottom: 150px;
+	display: inline-block;
+	transition: 0.2s;
+}
+
+.bespoke-desc a:hover {
+	font-size: 35px;
+	transition: 0.2s;
+}
+

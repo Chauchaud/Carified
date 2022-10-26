@@ -1,0 +1,108 @@
+
+/*classes*/
+
+.content {
+	align-items: center;
+	margin-bottom: 72px;
+}
+
+.content H2 {
+	font-family: 'DELIRIUM NCV', sans-serif;
+	text-align: center;
+	font-size: 72px;
+	letter-spacing: 5px;
+	color: #06283D;
+	width: 300px;
+	margin: 0 auto;
+	margin-bottom: 1px;
+}
+
+.content H3 {
+	font-family: 'DELIRIUM NCV', sans-serif;
+	text-align: center;
+	font-size: 72px;
+	letter-spacing: 5px;
+	color: #06283D;
+	width: 300px;
+	margin: 0 auto;
+	margin-bottom: 1px;
+}
+
+
+
+.content H6 {
+	color: #06283D;
+	text-align: center;
+	margin-top: 1px;
+}
+
+.content p {
+	font-family: 'ubuntu', sans-serif;
+	font-size: 16px;
+	color: #7F8487;
+	text-align: center;
+	margin-top: 1px;
+	margin-bottom: 12px;
+}
+
+.content img {
+	display: block;
+	align-content: center;
+	border-radius: 10px;
+	height: 600px;
+	width: 1080px;
+	box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.6);
+	margin: 0 auto;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+
+
+/*id*/
+
+#light-text {
+	font-family: 'DELIRIUM NEON NCV', sans-serif;
+	opacity: 40%;
+	text-align: center;
+	font-size: 64px;
+	color: #06283D;
+	width: 500px;
+	margin: 0 auto;
+	margin-bottom: 12px;
+	margin-top: 24px;
+}
+
+#light-text:hover {
+	font-family: 'DELIRIUM NCV', sans-serif;
+}
+
+#pagani {
+	box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+}
+
+#legend {
+	font-family: 'high spirited', sans-serif;
+	margin-bottom: 150px;
+	font-size: 32px;
+	color: #7F8487;
+	text-align: center;
+	margin-top: 1px;
+}
+
+
+#requirements {
+	margin-top: 60px;
+}
+
+#opacity100 {
+	margin top: 50px;
+	opacity: 100%;
+	margin-bottom: 24px;
+}
+
+#opacity70 {
+	margin-top: 10px;
+	opacity: 70px;
+	width: 500px;
+}

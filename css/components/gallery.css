@@ -1,0 +1,65 @@
+.gallery  {
+  margin-bottom: 70px;
+}
+
+.illustrations {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+}
+
+.images {
+  flex-grow: 1;
+  flex-basis: 400px;
+  width: auto;
+  border-radius: 10px;
+  transition:  0.8s;
+  margin-bottom: 24px;
+  /*box-shadow: 0px 0px 10px rgba(0, 0, 0, 1.0);*/
+}
+
+.images img {
+  display: block;
+  margin: 0 auto;
+  align-items: center;
+  width: 250px;
+  height: 360px;
+  margin-bottom:  20px;
+  border-radius: 20px;
+}
+
+.header-gallery H2 {
+  font-family: 'DELIRIUM NCV', sans-serif;
+  text-align: center;
+  font-size: 56px;
+  letter-spacing: 5px;
+  color: #06283D;
+  width: 300px;
+  margin: 0 auto;
+  margin-bottom: 2px;
+}
+
+.header-gallery p {
+  font-size: 'high spirited', sans-serif;
+  text-align: center;
+  font-size: 24px;
+  color: #06283D;
+  width: 300px;
+  margin: 0 auto;
+  margin-bottom: 42px;
+  margin-top: 0px;
+}
+
+
+.header-gallery H2:hover {
+  font-family: 'DELIRIUM NEON NCV', sans-serif;
+  text-align: center;
+  font-size: 56px;
+  letter-spacing: 5px;
+  color: #06283D;
+  width: 300px;
+  margin: 0 auto;
+  margin-bottom: 2px;
+  transition: 0.2s;
+}

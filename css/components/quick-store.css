@@ -1,0 +1,127 @@
+/*introduction to the shop*/
+
+.text-overlay {
+  text-align: center;
+}
+
+#background-txt {
+  position: relative;
+  font-family: 'delirium neon ncv', sans-serif;
+  font-size: 72px;
+  opacity: 10%;
+  color: #06283D;
+}     
+
+
+#foreground-txt {
+  position: absolute;
+  top: 1355px;
+  right: 635px;
+  font-family: 'high spirited', sans-serif;
+  font-size: 54px;
+  opacity: 90%;
+}    
+
+
+/*the shop itself with images ...*/
+
+
+
+.prints {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+}
+
+.shop-card {
+  flex-grow: 1;
+  flex-basis: 400px;
+  width: auto;
+  padding: 10px;
+  border-radius: 10px;
+  transition:  0.8s;
+  margin-bottom: 50px;
+  /*box-shadow: 0px 0px 10px rgba(0, 0, 0, 1.0);*/
+}
+
+.shop-card img {
+  display: block;
+  margin: 0 auto;
+  align-items: center;
+  width: 330px;
+  height: 260px;
+  margin-top: 20px;
+  margin-bottom:  20px;
+  border-radius: 10%;
+}
+
+.shop-card a {
+  display: block;
+  text-decoration: none;
+  color: black;
+  font-family: 'delirium ncv', sans-serif;
+  font-size: 36px;
+  align-items: center;
+  text-align: center;
+}
+
+.shop-card p {
+  display: block;
+  color: #fdfbf6;
+  font-family: 'high spirited', sans-serif;
+  font-size: 32px;
+  align-items: center;
+  text-align: center;
+  margin-top: 2px;
+  margin-bottom: 3px;
+}
+
+.shop-card:hover {
+  background-color: #06283D30;
+  transition: 2s;
+}
+
+
+/*The link to 'shop all'*/
+
+
+
+.shop-all h6 {
+  display: block;
+  text-align: center;
+  color: #06283D;
+  opacity: 20%;
+  margin-top: 0px;
+}
+
+.shop-all p {
+  font-family: 'high spirited', sans-serif;
+  text-decoration: none;
+  color: #06283D;
+  font-size: 32px;
+  margin-top: 10px;
+  margin-bottom: 1px;
+  transition: 0.5s;
+  text-align: center;
+}
+
+.shop-all a {
+  font-family: 'high spirited', sans-serif;
+  text-decoration: none;
+  color: #f5f3ef;
+  margin-top: 1px;
+  margin-bottom: 1px;
+}
+
+.shop-all p:hover{
+  font-size: 28px;
+  transition: 0.5s;
+  margin-bottom: 3px;
+  margin-top: 3px;
+}
+
+
+.shop-all {
+  margin-bottom: 50px;
+}

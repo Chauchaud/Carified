@@ -1,0 +1,44 @@
+.head-banner img	{
+	height: 60px;
+	width: 180px;
+	padding: 24px;
+}
+
+.head-banner {
+	display: flex;
+}
+
+.head-banner a {
+	display: block;
+	align-items: center;
+	color: white;
+	text-decoration: none;
+	padding: 40px;
+	font-family: 'ubuntu', sans-serif;
+	font-size: 15px;
+	transition: 0.2s;
+	opacity: 80%;
+}
+
+.head-banner a:hover {
+	font-size: 17px;
+	transition: 0.2s;
+}
+
+
+.banner	{
+	background-image: linear-gradient(-180deg, rgba(17, 40, 60, 1.0)10%, rgba(0, 0, 0, 0.2)50%), url('../../images/Cadre_porsche.jpg');
+	background-position: center;
+	background-size: cover;
+	margin-bottom: 70px;
+	height: 800px;
+}
+
+.banner-generic {
+	background-image: linear-gradient(-180deg, rgba(17, 40, 60, 1.0)10%, rgba(0, 0, 0, 0.2)50%), url('../../images/cadre_lc500.jpg');
+	background-position: top;
+	background-size: cover;	
+	margin-bottom: 70px;
+	height: 700px;
+}
+

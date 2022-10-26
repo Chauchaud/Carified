@@ -1,0 +1,25 @@
+.title H2 {
+	font-family: 'DELIRIUM NCV', sans-serif;
+	text-align: center;
+	font-size: 48px;
+	letter-spacing: 5px;
+	color: #06283D;
+	width: 300px;
+	margin: 0 auto;
+	margin-bottom: 1px;
+}
+
+.title H6 {
+	color: #06283D;
+	text-align: center;
+	margin-top: 1px;
+}
+
+.title p {
+	font-family: 'high spirited', sans-serif;
+	font-size: 24px;
+	color: #7F8487;
+	text-align: center;
+	margin-top: 1px;
+	margin-bottom: 150px;
+}

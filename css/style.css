@@ -1,0 +1,340 @@
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Comfortaa:wght@300&family=Reenie+Beanie&family=Ubuntu:wght@300&display=swap');
+@import url('http://fonts.cdnfonts.com/css/high-spirited');
+@import url('http://fonts.cdnfonts.com/css/delirium-ncv');
+@import	url('Components/banner.css');
+@import url('Components/container.css');
+@import url('Components/title.css');
+@import url('Components/quick-store.css');
+@import url('Components/bespoke.css');
+@import url('Components/footer.css');
+@import url('Components/gallery.css');
+@import url('Components/content.css');
+
+body {
+	margin: 0px;
+	background-color: #FEFBF6;
+}
+
+
+
+/*media queries*/
+
+@media (max-width:  30000000000px) {
+	#foreground-txt {
+	  position: absolute;
+	  top: 1355px;
+	  right: 630px;
+	  font-family: 'high spirited', sans-serif;
+	  font-size: 54px;
+	  opacity: 90%;
+	  opacity: 0%;
+	}    
+	.content img {
+		height: 600px;
+		width: 1080px;
+	}
+}
+
+@media (max-width:  1600px) {
+	#foreground-txt {
+	  position: absolute;
+	  top: 1355px;
+	  right: 630px;
+	  font-family: 'high spirited', sans-serif;
+	  font-size: 54px;
+	  opacity: 90%;
+	}    
+	#image-bespoke {
+		margin-top: 100px;
+	}
+	.content img {
+		height: 600px;
+		width: 1080px;
+	}
+}
+
+@media (max-width:  1500px) {
+	#foreground-txt {
+	  position: absolute;
+	  top: 1355px;
+	  right: 600px;
+	  font-family: 'high spirited', sans-serif;
+	  font-size: 54px;
+	  opacity: 90%;
+	}    
+	.content img {
+		height: 600px;
+		width: 1080px;
+	}
+}
+
+@media (max-width:  1400px) {
+	#foreground-txt {
+	  position: absolute;
+	  top: 1355px;
+	  right: 550px;
+	  font-family: 'high spirited', sans-serif;
+	  font-size: 54px;
+	  opacity: 90%;
+	}    
+	.content img {
+		height: 600px;
+		width: 1080px;
+	}
+}
+
+@media (max-width:  1300px) {
+	#foreground-txt {
+	  position: absolute;
+	  top: 1355px;
+	  right: 500px;
+	  font-family: 'high spirited', sans-serif;
+	  font-size: 54px;
+	  opacity: 90%;
+	}  
+	.content img {
+		height: 600px;
+		width: 1080px;
+	}  
+}
+
+@media (max-width:  1200px) {
+	#foreground-txt {
+	  position: absolute;
+	  top: 1355px;
+	  right: 450px;
+	  font-family: 'high spirited', sans-serif;
+	  font-size: 54px;
+	  opacity: 90%;
+	}    
+	.content img {
+		height: 600px;
+		width: 1080px;
+	}
+}
+
+@media (max-width:  1100px) {
+	#foreground-txt {
+	  position: absolute;
+	  top: 1355px;
+	  right: 400px;
+	  font-family: 'high spirited', sans-serif;
+	  font-size: 54px;
+	  opacity: 90%;
+	}    
+	.content img {
+		height: 500px;
+		width: 900px;
+	}
+}
+
+@media (max-width:  1000px) {
+	#foreground-txt {
+	  position: absolute;
+	  top: 1355px;
+	  right: 350px;
+	  font-family: 'high spirited', sans-serif;
+	  font-size: 54px;
+	  opacity: 90%;
+	}  
+	.content img {
+		height: 410px;
+		width: 750px;
+	}  
+}
+
+@media (max-width:  900px) {
+	#foreground-txt {
+	  position: absolute;
+	  top: 1355px;
+	  right: 300px;
+	  font-family: 'high spirited', sans-serif;
+	  font-size: 54px;
+	  opacity: 90%;
+	}    
+	.content img {
+		height: 350px;
+		width: 640px;
+	}
+}
+
+@media (max-width:  800px) {
+	#foreground-txt {
+	  position: absolute;
+	  top: 1355px;
+	  right: 250px;
+	  font-family: 'high spirited', sans-serif;
+	  font-size: 54px;
+	  opacity: 90%;
+	}    
+	.content img {
+		height: 330px;
+		width: 580px;
+	}
+}
+
+@media (max-width:  700px) {
+	#foreground-txt {
+	  position: absolute;
+	  top: 1355px;
+	  right: 200px;
+	  font-family: 'high spirited', sans-serif;
+	  font-size: 54px;
+	  opacity: 90%;
+	}    
+	.content img {
+		height: 280px;
+		width: 500px;
+	}
+	.head-banner a {
+	display: block;
+	align-items: center;
+	color: white;
+	text-decoration: none;
+	margin-top: 10px;
+	padding: 32px;
+	font-family: 'ubuntu', sans-serif;
+	font-size: 13px;
+	transition: 0.2s;
+	opacity: 80%;
+	}
+
+	.head-banner a:hover {
+	font-size: 15px;
+	transition: 0.2s;
+	}
+}
+
+@media (max-width:  600px) {
+	#foreground-txt {
+	  position: absolute;
+	  top: 1355px;
+	  right: 150px;
+	  font-family: 'high spirited', sans-serif;
+	  font-size: 54px;
+	  opacity: 90%;
+	}    
+	.citation-footer p {
+		font-size: 40px;
+	}
+	.content img {
+		height: 230px;
+		width: 400px;
+	}
+	.head-banner a {
+	display: block;
+	align-items: center;
+	color: white;
+	text-decoration: none;
+	margin-top: 24px;
+	padding: 18px;
+	font-family: 'ubuntu', sans-serif;
+	font-size: 12px;
+	transition: 0.2s;
+	opacity: 80%;
+	}
+
+	.head-banner a:hover {
+	font-size: 14px;
+	transition: 0.2s;
+	}
+}
+
+@media (max-width:  500px) {
+	#foreground-txt {
+	  position: absolute;
+	  top: 1355px;
+	  right: 110px;
+	  font-family: 'high spirited', sans-serif;
+	  font-size: 54px;
+	  opacity: 90%;
+	}    
+	.citation-footer p {
+		font-size: 35px;
+	}
+	.content img {
+		height: 200px;
+		width: 350px;
+	}
+	.head-banner a {
+	display: block;
+	align-items: center;
+	color: white;
+	text-decoration: none;
+	margin-top: 29px;
+	padding: 12px;
+	font-family: 'ubuntu', sans-serif;
+	font-size: 12px;
+	transition: 0.2s;
+	opacity: 80%;
+	}
+
+	.head-banner a:hover {
+	font-size: 14px;
+	transition: 0.2s;
+	}
+}
+
+@media (max-width:  400px) {
+	#foreground-txt {
+	  position: absolute;
+	  top: 1355px;
+	  right: 50px;
+	  font-family: 'high spirited', sans-serif;
+	  font-size: 54px;
+	  opacity: 90%;
+	}  
+	.content img {
+		height: 600px;
+		width: 1080px;
+	}  
+	.head-banner a {
+	display: block;
+	align-items: center;
+	color: white;
+	text-decoration: none;
+	margin-top: 29px;
+	padding: 12px;
+	font-family: 'ubuntu', sans-serif;
+	font-size: 12px;
+	transition: 0.2s;
+	opacity: 80%;
+	}
+
+	.head-banner a:hover {
+	font-size: 14px;
+	transition: 0.2s;
+	}
+}
+
+@media (max-width:  300px) {
+	#foreground-txt {
+	  position: absolute;
+	  top: 1355px;
+	  right: 25px;
+	  font-family: 'high spirited', sans-serif;
+	  font-size: 54px;
+	  opacity: 90%;
+	}    
+	.content img {
+		height: 600px;
+		width: 1080px;
+	}
+	.head-banner a {
+	display: block;
+	align-items: center;
+	color: white;
+	text-decoration: none;
+	margin-top: 29px;
+	padding: 12px;
+	font-family: 'ubuntu', sans-serif;
+	font-size: 12px;
+	transition: 0.2s;
+	opacity: 80%;
+	}
+
+	.head-banner a:hover {
+	font-size: 14px;
+	transition: 0.2s;
+	}
+}
